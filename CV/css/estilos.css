@@ -1,0 +1,95 @@
+/*
+    Estilos CSS del CV
+*/
+
+body {
+    color: midnightblue;
+    /* background-color: #FFF8E6; */
+    /* background-image: linear-gradient(157deg, rgb(0, 127, 255, 0.33), rgb(0, 127, 0, 0.33)); */
+    background-image: url(../img/fondo.jpg);
+    background-repeat: repeat;
+    font-family: 'Dosis', sans-serif;
+}
+
+button {
+    color: darkred;
+    font-size: 20px;
+    font-family: 'Cabin', sans-serif;
+}
+
+#Cuerpo {
+    width: 100%;
+    height: 800px;
+}
+
+.FondoGris {
+    /* Atributo reeemplazado con la etiqueta <col width="25%"> 
+    width: 25%; 
+    */
+    background: grey;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    vertical-align: top;
+}
+
+#Tabla1,
+#Tabla2 {
+    width: 95%;
+    position: center;
+    color: black;
+    background: transparent;
+    border-width: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: brown;
+    margin: 0px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+#Info {
+    color: white;
+    font-size: 20px;
+}
+
+.InfoTit {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.InfoDerecha {
+    border-width: 2px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+#Foto {
+    transform: scaleX(-1);
+}
+
+.OrgTitulos {
+    width: 20%;
+    background: gray;
+    border-radius: 10px;
+    color: white;
+    padding: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.OrgLogos {
+    height: 120px;
+}
+
+#Notas {
+    font-size: 20px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+.Logos {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+}
