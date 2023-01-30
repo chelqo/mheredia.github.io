@@ -17,6 +17,10 @@ button {
     font-family: 'Cabin', sans-serif;
 }
 
+iframe {
+    border: 0px;
+}
+
 #Cuerpo {
     width: 100%;
     height: 800px;
