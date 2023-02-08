@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="mdn-logo"
+   x="0px"
+   y="0px"
+   viewBox="0 0 101.4 92.100001"
+   xml:space="preserve"
+   version="1.1"
+   sodipodi:docname="MDN_Web_Docs.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   width="101.4"
+   height="92.099998"><metadata
+     id="metadata29"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs27" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1012"
+     id="namedview25"
+     showgrid="false"
+     inkscape:zoom="3.8864266"
+     inkscape:cx="133.799"
+     inkscape:cy="52.099998"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="mdn-logo"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" /><style
+     type="text/css"
+     id="style2">
+  .logo-m{fill:#1870f0;}
+  .logo-text{fill:#15141a;}
+</style><path
+     d="M 40.3,0 11.7,92.1 H 0 L 28.5,0 Z"
+     id="path4"
+     style="fill:#1870f0" /><path
+     d="M 50.7,0 V 92.1 H 40.3 V 0 Z"
+     id="path6"
+     style="fill:#1870f0" /><path
+     d="M 101.4,0 V 92.1 H 91 V 0 Z"
+     id="path8"
+     style="fill:#1870f0" /><path
+     d="M 91,0 62.5,92.1 H 50.8 L 79.3,0 Z"
+     id="path10"
+     style="fill:#1870f0" /></svg>
