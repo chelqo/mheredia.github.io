@@ -6,7 +6,7 @@ ver=1.0
 dir="mheredia.github.io"
 mail="chelqo@gmail.com"
 user="chelqo"
-token="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"
+token="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"
 date=`date +"%F %a %R"`
 
 #-----------------------------------------------
@@ -30,5 +30,5 @@ echo "
 Username: ${user}
 Password: ${token}
 "
-echo -n ${token} | xsel --clipboard
+#echo -n ${token} | xsel --clipboard
 git push origin main
