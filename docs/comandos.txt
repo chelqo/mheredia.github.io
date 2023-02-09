@@ -1,0 +1,17 @@
+# passw: P0stda74
+# token: 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
+
+git config --global user.email "chelqo@gmail.com"
+git config --global user.name "chelqo"
+
+git clone https://github.com/chelqo/mheredia.github.io
+git config --global push.default matching
+
+cd mheredia.github.io/
+
+git status
+git fetch origin
+git add [ archivos... ]
+git commit -m "Actualización YYYY-MM-DD hh:mm"
+git push origin main
+
