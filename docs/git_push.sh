@@ -7,6 +7,7 @@ dir="mheredia.github.io"
 mail="chelqo@gmail.com"
 user="chelqo"
 token="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"
+date=`date +"%F %a %R"`
 
 #-----------------------------------------------
 
@@ -23,10 +24,11 @@ read -p "Ingrese lista de archivos para actualizar: " lista
 [ -n "${lista}" ] && git add $lista || { echo "Terminado..." ; exit ; }
 
 read -p "Ingrese descripción del commit: " texto
-[ -n "${texto}" ] && git commit -m "${texto}"
+[ -n "${texto}" ] && git commit -m "${texto}" || git commit -m "${date}"
 
 echo "
 Username: ${user}
 Password: ${token}
 "
+echo -n ${token} | xsel --clipboard
 git push origin main
