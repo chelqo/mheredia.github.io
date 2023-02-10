@@ -6,7 +6,7 @@ ver=1.0
 dir="mheredia.github.io"
 mail="chelqo@gmail.com"
 user="chelqo"
-token="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"
+token="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"
 date=`date +"%F %a %R"`
 
 #-----------------------------------------------
