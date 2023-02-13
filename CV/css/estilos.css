@@ -1,99 +1,108 @@
 /*
-    Estilos CSS del CV
+	Estilos del CV
 */
 
 body {
-    color: midnightblue;
-    /* background-color: #FFF8E6; */
-    /* background-image: linear-gradient(157deg, rgb(0, 127, 255, 0.33), rgb(0, 127, 0, 0.33)); */
-    background-image: url(../img/fondo.jpg);
-    background-repeat: repeat;
-    font-family: 'Dosis', sans-serif;
+	color: midnightblue;
+	background-image: url(../img/fondo.jpg);
+	font-family: Dosis, sans-serif;
+	font-size: 1em;
 }
 
-button {
-    color: darkred;
-    font-size: 20px;
-    font-family: 'Cabin', sans-serif;
-}
-
-iframe {
-    border: 0px;
+#Boton1,
+#Boton2,
+#Boton3 {
+	font-family: Cabin, sans-serif;
+	font-size: 1.5em;
+	color: darkred;
+	margin: 0 0.5vw 0.33vw 0;
+	padding: 0 0.5em;
+	border: outset;
+	border-width: 0.15em;
+	border-radius: 0.67em 0.33em;
 }
 
 #Cuerpo {
-    width: 100%;
-    height: 800px;
-}
-
-.FondoGris {
-    /* Atributo reeemplazado con la etiqueta <col width="25%"> 
-    width: 25%; 
-    */
-    background: grey;
-    border-radius: 10px;
-    color: white;
-    padding: 5px;
-    vertical-align: top;
+	width: 98vw;
+	height: 90vh;
+	border-style: double;
+	border-color: darkred;
+	border-radius: 2vw;
+	border-width: 0.35vw;
+	margin: 0.15vw;
 }
 
 #Tabla1,
 #Tabla2 {
-    width: 95%;
-    position: center;
-    color: black;
-    background: transparent;
-    border-width: 2px;
-    border-radius: 10px;
-    border-style: solid;
-    border-color: brown;
-    margin: 0px;
-    padding: 5px;
-    font-size: 20px;
+	/*	border-spacing: 0.75em;*/
+	border-spacing: 0.75vw;
 }
 
-#Info {
-    color: white;
-    font-size: 20px;
+.FondoGris {
+	background: gray;
+	color: white;
+	border-radius: 1.5vw;
+	padding: 0 0.25vw;
+	font-family: Dosis, sans-serif;
+	font-size: 1.5em;
+	width: 50vh;
+	vertical-align: top;
 }
 
 .InfoTit {
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.ColIconos {
+	width: 3vw;
+}
+
+.ColTextos {
+	font-size: 1em;
+	padding-left: 1em;
 }
 
 .InfoDerecha {
-    border-width: 2px;
-    border-radius: 10px;
-    vertical-align: top;
+	border-style: solid;
+	border-radius: 1.5vw;
+	border-width: 2px;
+	border-color: black;
+	vertical-align: top;
+	font-size: 1.33em;
+	padding: 0 1em;
 }
 
 #Foto {
-    transform: scaleX(-1);
+	width: 22.5vw;
+	transform: scaleX(-1);
+	border-radius: 3vw 7vw;
 }
 
 .OrgTitulos {
-    width: 20%;
-    background: gray;
-    border-radius: 10px;
-    color: white;
-    padding: 25px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+	width: 33vw;
+	background: gray;
+	border-radius: 1.5vw;
+	color: white;
+	padding: 25px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
 .OrgLogos {
-    height: 120px;
+	height: 15vh;
+}
+
+.OrgInfo {
+	font-size: 1.33em;
 }
 
 #Notas {
-    font-size: 20px;
-    font-family: 'Encode Sans Condensed', sans-serif;
+	font-size: 1.2em;
+	font-family: "Encode Sans Condensed", sans-serif;
 }
 
 .Logos {
-    width: 90px;
-    height: 90px;
-    object-fit: contain;
+	height: 96px;
 }
